@@ -1,0 +1,55 @@
+*{
+    
+    margin-left: 0;
+    margin-top: 0;
+}
+body{
+    background-color: black;
+    background-image: url(../img/code-1839406_1280-800x534.jpg);
+    background-repeat: repeat-y;
+    background-position: right top;
+}
+main{
+    float: left;
+    width: 60%;
+    background-color: black;
+    color: aliceblue;
+    box-shadow: 5px 5px 5px blue;
+}
+#class{
+    width: 25%;
+}
+textarea{
+    margin-left: 2%;
+    width: 80%;
+}
+
+label{
+    margin-left: 2%;
+}
+input{
+    margin-left: 5%;
+}
+h1 {
+    text-align: center;
+}
+fieldset{
+    text-align: center;
+    margin: 10px 30px 5px 30px ;
+}
+.cargo{
+    text-align: left;
+}
+legend{
+    font-size: 20px;
+}
+#botao{
+    margin-left: 38%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#botao, #botao1{
+    font-size: 18px;
+}#curriculo{
+    width: 110px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>currículo</title>
+</head>
+
+<body>
+
+    <main>
+        <h1>candidatura a uma vaga de emprego</h1>
+
+        <fieldset>
+            <legend> informações</legend>
+            <input type="text" placeholder="seu nome completo" id="class" />
+            <input type="text" placeholder="coloque o nome da sua cidade" id="class"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>contados</legend>
+            <input type="tel" maxlength="14" placeholder="seu telefone (xx)xxxxx-xxxx">
+            <input type="email" placeholder="e-mail"> <br><br>
+        </fieldset>
+
+        <fieldset class="cargo">
+            <legend>selecione a vaga desejada</legend>
+            <input type="radio" id="cargo1" name="cargo" value="front-end" />
+            <lebal for="cargo1">front-end</lebal><br>
+            <input type="radio" id="cargo2" name="cargo" value="back-end" />
+            <lebal for="cargo2">back-end</lebal><br>
+            <input type="radio" id="cargo3" name="cargo" value="design" />
+            <lebal for="cargo3">design</lebal><br>
+        </fieldset>
+        <fieldset>
+            <legend>currículo</legend>
+            <label>mande seu currículo em (PDF)</label><br>
+            <input type="file" id="curriculo" name="curriculo" accept=".pdf" required /><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>objetivos</legend>
+            <textarea rows="4" type="text" ro
+                placeholder="escreva um brave texto sobre seus objetivos na empresa"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>experiencia</legend>
+            <textarea type="text" rows="4" placeholder="fale um pouca da sua experiência e conhecimento"></textarea>
+        </fieldset>
+        <input type="submit" id="botao" value="envia">
+        <input type="reset" id="botao1" value="cancelar" >
+    </main>
+
+</body>
+
+</html>
